@@ -1,10 +1,10 @@
-## Wednesday 04/04/19
-##### Problem: <example problem title>
+## Wednesday 21/10/2019
+##### Problem: Jenkins startup
 Suggested Solution:
-* step 1
-* step 2
+* java -jar jenkins.war --httpPort=8080
+* URL: http://localhost:8080/
 * ...
 
-*Tags: tag1, tag2, tag3*
+*Tags: jenkins*
 
 ---
