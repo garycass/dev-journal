@@ -8,3 +8,13 @@ Suggested Solution:
 *Tags: jenkins*
 
 ---
+## Monday 20/04/2020
+##### Problem: Update TestCafe
+Suggested Solution:
+* npm outdated (-g for global)
+* npm update testcafe (-g for global)
+* ...
+
+*Tags: npm*
+
+---
