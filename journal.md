@@ -24,16 +24,12 @@ Suggested Solution:
 ## Monday 20/04/2020
 ##### Problem: Update TestCafe
 Suggested Solution:
+```
 select name,create_date,modify_date
 from sys.procedures
 order by modify_date desc
+```
 
-*Tags: npm*
-
----
-
-* ...
-
-*Tags: npm*
+*Tags: sql*
 
 ---
