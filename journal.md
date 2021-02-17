@@ -21,9 +21,6 @@ Suggested Solution:
 ## Wednesday 17/02/2021
 ##### Problem: SQL Server - Identify most rcently modified stored procedures
 Suggested Solution:
-## Monday 20/04/2020
-##### Problem: Update TestCafe
-Suggested Solution:
 ```
 select name,create_date,modify_date
 from sys.procedures
