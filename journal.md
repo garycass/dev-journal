@@ -15,7 +15,7 @@ Suggested Solution:
 * npm update testcafe (-g for global)
 * ...
 
-*Tags: npm*
+*Tags: TestCafe*
 
 ---
 ## Wednesday 17/02/2021
@@ -28,5 +28,15 @@ order by modify_date desc
 ```
 
 *Tags: sql*
+
+---## Thursday 25/02/2021
+##### Problem: Check .NET runtime versions
+Suggested Solution:
+You can see which versions of the .NET runtime are currently installed with the following command.
+```
+dotnet --list-runtimes
+```
+
+*Tags: .NET*
 
 ---
