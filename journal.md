@@ -42,3 +42,19 @@ dotnet --list-runtimes
 *Tags: .NET*
 
 ---
+## Friday 07/01/2022
+##### Problem: SQL execution time
+Suggested Solution:
+```
+DECLARE @t1 DATETIME;
+DECLARE @t2 DATETIME;
+
+SET @t1 = GETDATE();
+SELECT /* query one */ 1 ;
+SET @t2 = GETDATE();
+SELECT DATEDIFF(millisecond,@t1,@t2) AS elapsed_ms;
+```
+
+*Tags: sql*
+
+---
