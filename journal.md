@@ -57,4 +57,15 @@ SELECT DATEDIFF(millisecond,@t1,@t2) AS elapsed_ms;
 
 *Tags: sql*
 
+---## Wednesday 11/01/2023
+##### Problem: Find string SQL stored procedures
+Suggested Solution:
+```
+SELECT name
+FROM   sys.procedures
+WHERE  Object_definition(object_id) LIKE '%mystring%';
+```
+
+*Tags: sql*
+
 ---
