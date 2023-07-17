@@ -57,7 +57,8 @@ SELECT DATEDIFF(millisecond,@t1,@t2) AS elapsed_ms;
 
 *Tags: sql*
 
----## Wednesday 11/01/2023
+---
+## Wednesday 11/01/2023
 ##### Problem: Find string SQL stored procedures
 Suggested Solution:
 ```
