@@ -70,3 +70,17 @@ WHERE  Object_definition(object_id) LIKE '%mystring%';
 *Tags: sql*
 
 ---
+## Wednesday 02/10/2024
+##### Problem: Copy a directory retaining its permissions
+Suggested Solution:
+```
+xcopy c:\source_folder_name e:\destination_folder_name /O /X /E /H /K
+
+/E - Copies folders and subfolders, including empty ones.
+/H - Copies hidden and system files also.
+/K - Copies attributes. Typically, Xcopy resets read-only attributes.
+/O - Copies file ownership and ACL information.
+/X - Copies file audit settings (implies /O).
+```
+
+*Tags: xcopy*
